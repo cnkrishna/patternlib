@@ -1,0 +1,115 @@
+{
+  "coverage": "0%",
+  "expectCount": 48,
+  "actualCount": 0,
+  "files": {
+    "src/AssessmentMetadata/js/components/common/AutoComplete.js": {
+      "expectCount": 7,
+      "actualCount": 0,
+      "undocumentLines": [
+        29,
+        41,
+        31,
+        56,
+        38,
+        62,
+        33
+      ]
+    },
+    "src/PatternAlpha/js/containers/button/Button.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        6,
+        7,
+        9,
+        13,
+        57
+      ]
+    },
+    "src/PatternBeta/js/containers/button/ButtonLong.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        5,
+        6,
+        8,
+        13,
+        20
+      ]
+    },
+    "src/AssessmentMetadata/js/action/metadata.js": {
+      "expectCount": 11,
+      "actualCount": 0,
+      "undocumentLines": [
+        107,
+        79,
+        116,
+        97,
+        22,
+        10,
+        67,
+        44,
+        55,
+        33,
+        88
+      ]
+    },
+    "src/AssessmentMetadata/js/components/common/Heading.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        9,
+        10,
+        12,
+        15
+      ]
+    },
+    "src/AssessmentMetadata/js/container/Metadata.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        32
+      ]
+    },
+    "src/AssessmentMetadata/js/components/common/TagElem.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        9,
+        10,
+        12,
+        22,
+        17,
+        30
+      ]
+    },
+    "src/AssessmentMetadata/js/reducers/index.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        18,
+        14,
+        10,
+        22,
+        30,
+        26
+      ]
+    },
+    "src/AssessmentMetadata/js/reducers/metadata.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        55,
+        16
+      ]
+    },
+    "src/AssessmentMetadata/js/store/index.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        10
+      ]
+    }
+  }
+}

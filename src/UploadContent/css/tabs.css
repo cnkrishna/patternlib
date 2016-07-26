@@ -1,0 +1,21 @@
+.react-tabs [role=tab]{
+	position:static;
+    padding:6px 0px;
+    margin:0px 12px;
+}
+
+.react-tabs [role=tablist] {
+    background-color: #F3F3F3;
+    border: none;
+}
+
+
+.react-tabs [role=tab][aria-selected=true] {
+    background: #F3F3F3;
+    color: #1B6DAB;
+    border-color:#FFFFFF;
+    border-radius: 0px 0px 0 0;
+    -moz-border-radius: 0px 0px 0 0;
+    -webkit-border-radius: 0px 0px 0 0;
+    border-bottom: 5px solid #094877;
+}

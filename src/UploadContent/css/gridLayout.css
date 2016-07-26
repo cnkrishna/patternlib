@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+}
+.col-md-1 {width: 8.33%;}
+.col-md-2 {width: 16.66%;}
+.col-md-3 {width: 25%;}
+.col-md-4 {width: 33.33%;}
+.col-md-5 {width: 41.66%;}
+.col-md-6 {width: 50%;}
+.col-md-7 {width: 58.33%;}
+.col-md-8 {width: 66.66%;}
+.col-md-9 {width: 75%;}
+.col-md-10 {width: 83.33%;}
+.col-md-11 {width: 91.66%;}
+.col-md-12 {width: 100%;}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+
+.card-item {
+    border-top: 1px solid #ccc;
+    /*border-right: 1px solid #ccc;*/
+    /*border-bottom: 1px solid #ccc;*/
+    border-left: 1px solid #ccc;
+    clear: both;
+    padding: 2%;
+}
+
+.card-img {
+    width: 100%;
+    height: 100 %;
+}
+
+.card-body {
+    height: 75%;
+}
+
+.card-footer {
+    height: 25%;
+    padding: 10px 10px 10px 0;
+}
+
+.info {
+    background: url('../images/1462384496_info.png') no-repeat top left;
+}
+
+.icon-accessibility {
+    display: inline-block;
+    background-position: 0 0; width: 32px; height: 32px;
+}
+
+.edit {
+    background: url('../images/1462384579_15.Pencil.png') no-repeat top left;
+}
+
+.audio {
+    background: url('../images/1462384431_volume-24.png') no-repeat top left;
+}
+
+.video {
+    background: url('../images/1462535506_device-camera-recorder-video-glyph.png') no-repeat top left;
+}
+
+.image {
+    background: url('../images/1462535478_32.png') no-repeat top left;
+}
+
+.footer-icon-left {
+    float: left;
+}
+
+.footer-icon-right {
+    float: right;
+}
+
+.caption {
+    margin: 0 0 15px 0;
+    font-size: 15px;
+}
+
+.clearFloat{
+    clear: both;
+}
+
+img {
+    margin: 0px;
+}

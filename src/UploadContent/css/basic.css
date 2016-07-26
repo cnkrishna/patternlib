@@ -1,0 +1,134 @@
+.floatLeft{
+    float: left;
+}
+
+.secondDiv{
+    margin-top: 100px;
+}
+
+.paddedDiv{
+    padding-top: 50px;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+p {
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+
+.UploadContainer{
+    width:65%;
+    margin:0px auto;
+}
+
+#holder { border: 2px dashed #ccc; min-height: 150px; margin: 20px auto;}
+#holder.hover { border: 10px dashed #0c0; }
+#holder img { display: block; margin: 10px auto; }
+#holder p { margin: 10px; font-size: 14px; }
+progress { width:45%; 
+           margin:0 auto;}
+/*progress:after { content: '%'; }*/
+.fail {
+    background: #c00; 
+    padding: 2px; color: #fff; 
+}
+#upload-status{
+    text-align:center;
+}
+.hidden { 
+    display: none !important;
+}
+
+.UploadFormDiv h3{
+    text-align: left;
+}
+
+.upload{
+    /*padding-top: 10em;*/
+    text-align: center;
+    width: 100%;
+    font-size:13px;
+}
+
+.upload p{
+    display: inline-block;
+}
+
+.UploadImgIcon{
+    width:100%;
+    height:100%;
+}
+
+#PreviewImg{
+    /*min-height:250px;*/
+}
+
+.UploadStatusDiv {width:100%;}
+
+
+.errorMsg{
+    color:red;
+    text-align:center;
+    font-weight:bold;
+}
+
+.successMsg{
+    color:green;
+    text-align:center;
+    font-weight:bold;
+}
+
+.hideClass{
+    display:none;
+}
+
+showClass{
+    display:block;
+}
+
+.disabled
+{
+    pointer-events: none;
+
+    /* for "disabled" effect */
+    opacity: 0.5;
+    background: #CCC;
+}
+
+.BulkInstructDiv{
+    width:100%;
+    margin:0px auto;
+}
+.instructions{
+    padding: 15px;
+    border: 2px solid #ccc;
+    background: beige;   
+}
+.upload p{
+    display: inline-block;
+}
+
+#upload-status label {
+    width:25%;
+    display: inline-block;
+    text-align: left;
+    font-size:14px;
+}
+#upload-status select,
+#upload-status input{
+    width:75%;
+    display: inline-block;
+    text-align: left;
+    font-size:14px;
+}
+.progress {
+    margin-bottom: 0px;
+}
+.progress-bar{
+    background-color:#6C6E6F;
+    width: 65%;
+}
